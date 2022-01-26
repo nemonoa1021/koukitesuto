@@ -107,37 +107,37 @@
 // 以下の関数をテンプレート化して、
 // 様々な型で計算できるようにしてください。
 
-template <typename T>
-T Calc(T a, T b, int type)
-{
-	T ans = 0;
-	switch (type)
-		{
-			case 0:
-				ans = a + b;
-				break;
-			case 1:
-				ans = a - b;
-				break;
-			case 2:
-				ans = a * b;
-				break;
-			case 3:
-				ans = a / b;
-				break;
-		}
-	return ans;
-}
-int main()
-{
-	int ans1;
-	float ans2;
-	char ans3;
-	ans1 = Calc<int>(2, 5, 0);
-	ans2 = Calc<float>(10.0f, 2.5f, 3);
-	ans3 = Calc<char>(10, 4, 2);
-	return 0;
-}
+//template <typename T>
+//T Calc(T a, T b, int type)
+//{
+//	T ans = 0;
+//	switch (type)
+//		{
+//			case 0:
+//				ans = a + b;
+//				break;
+//			case 1:
+//				ans = a - b;
+//				break;
+//			case 2:
+//				ans = a * b;
+//				break;
+//			case 3:
+//				ans = a / b;
+//				break;
+//		}
+//	return ans;
+//}
+//int main()
+//{
+//	int ans1;
+//	float ans2;
+//	char ans3;
+//	ans1 = Calc<int>(2, 5, 0);
+//	ans2 = Calc<float>(10.0f, 2.5f, 3);
+//	ans3 = Calc<char>(10, 4, 2);
+//	return 0;
+//}
 
 
 
